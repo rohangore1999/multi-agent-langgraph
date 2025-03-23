@@ -75,7 +75,6 @@ We use a retriever interface to interact with the vector database because:
 The system uses a `GraphState` TypedDict to manage and pass state between components:
 
 - `question`: The user's original question
-- `generation`: Space for the generated answer (future enhancement)
 - `documents`: The retrieved documents
 
 ### Document Processing
